@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;     
+        }
+        nav {
+            background-color: rgb(73, 73, 73);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 28px;
+        }
+        nav >a:hover {
+            color: rgb(207, 99, 99);
+            font-weight: bold;
+
+        }
+        nav > a:active {
+            color: blueviolet;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            font-size: 14px;
+
+        }
+
+        article {
+            background-color: gray;
+        }
+        article > aside {
+            background-color: rgb(80, 80, 80);
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="">LINK 1</a>
+                <a href="">LINK 2</a>
+                <a href="">LINK 3</a>
+                <a href="">LINK 4</a>
+                <a href="">LINK 5</a>
+            </nav>
+    </header> 
+
+    <main>
+        <section id="assuntos">
+
+        </section>        
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum at incidunt quisquam, delectus necessitatibus deleniti tempora, excepturi nesciunt consequatur voluptate sed doloremque, quibusdam autem error obcaecati sint officiis dolores?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus adipisci nesciunt numquam. Vel sed beatae ipsam qui ad ut molestiae libero iusto sit ea, a quas dignissimos veritatis maiores ullam?</p>
+                <aside>
+                    <p>Artigo escrito por Rodrigo Roesler</p>
+                </aside>
+
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Rodrigo Roesler</p>
+    </footer>
+    
+</body>
+</html>
