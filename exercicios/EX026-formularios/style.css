@@ -7,21 +7,24 @@ margin: 0px;
 body {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 300px;
     align-items: center;
     text-align: center;
     border: 3px solid black;
     margin: auto;
+    padding: 180px 15px;
 }
 
 input {
     padding: 3px;
     margin: 5px;
-    background-color: rgba(196, 245, 132, 0.363);
+    background-color: #c4f5845d;
     border-radius: 3px;
     box-shadow: 2px 2px 2px 2px black;
     color: rgb(0, 0, 0);
 }
 
-
+fieldset {
+    width: 300px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            width: 320px;
+            margin: 0;           
+        }
+    </style>
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="#" method="get">
+    <fieldset>
+        <!--Para selecionar somente um dos campos 
+        muda-se o nome para sexo, deixando os dois iguais.-->
+        <legend>Sexo</legend> 
+        <input type="radio" for="imas" name="sexo" id="imas" value="M">Masculino<br>
+        <input type="radio" for="ifem" name="sexo" id="ifem" value="F">Feminino
+    </fieldset>        
+        <fieldset>
+        <legend>Esportes favoritos</legend>
+           <input type="checkbox" for="iesp-fut" name="esp-fut" id="iesp-fut">Futebol<br>
+           <input type="checkbox" for="iesp-vol" name="esp-volei" id="iesp-vol">Volei<br>
+           <input type="checkbox" for="iesp-basq" name="esp-basquete" id="iesp-basq">Basquete<br>
+           <input type="checkbox" for="iesp-hip" name="esp-hipismo" id="iesp-hip">Hipismo<br>
+           <input type="checkbox" for="iesp-pok" name="esp-poker" id="iesp-pok">Poker<br>
+        </fieldset>
+    <input type="submit" value="ENVIAR">
+    <input type="reset" value="LIMPAR">
+</form>    
+</body>
+</html>
