@@ -1,0 +1,27 @@
+@charset "-8 UTF";
+
+* {
+padding: 0px;
+margin: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    margin: auto;
+}
+
+input {
+    padding: 3px;
+    margin: 5px;
+    background-color: rgba(196, 245, 132, 0.363);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px black;
+    color: rgb(0, 0, 0);
+}
+
+
