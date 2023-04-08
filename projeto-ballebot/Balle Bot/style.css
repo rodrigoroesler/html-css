@@ -9,13 +9,12 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #f52e01 85.61%);
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #2b2929 85.61%);
 }
 
 .cabecalho {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
   padding: 24px;
 }
@@ -117,6 +116,8 @@ body {
 .rodape {
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
+    text-align: center;
+    color: white;
 }
 
 .rodape-imagem {

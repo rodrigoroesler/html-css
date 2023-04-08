@@ -23,10 +23,19 @@
     --fonte-destaque: 'Bebas Neue'
 }
 
+@media screen and (min-width: 880px) and (max-width: 992px) { 
+    main.cards {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
 body {
     background-color: var(--cor1);
     font-family: var(--fonte-padrao);
-    background-image: linear-gradient(to right, #948978, #b6a895b2);    
+    background-image: linear-gradient(to right, #948978, #b6a895b2);  
+    width: 90%;  
 
 }
 
@@ -181,4 +190,7 @@ main.cards section.card button {
     font-weight: 500;
     background-color: #403931;
 
+}
+main.cards section.card button:hover {
+    background-color: #e78616;    
 }
